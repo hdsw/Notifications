@@ -1,0 +1,33 @@
+<html>
+<head>
+    <script src="notifications.js"></script>
+    <script src="moment.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<!-- call to /api/notifications -->
+<body>
+<div id="loading-message">
+    Loading notifications...
+</div>
+<div id="notifications-container">
+    <h2>Notifications</h2>
+    <div id="num-loaded"></div>
+    <div id="notifications-list"></div>
+</div>
+<div id="notification-template" class="notification" style="display: none">
+    <div class="date"></div>
+    <div class="header">
+        <span class="logo">
+            <i></i>
+        </span>
+        <span class="status"></span>
+    </div>
+    <div class="body">
+        <div class="subject"></div>
+        <div class="subject-id"></div>
+    </div>
+</div>
+</body>
+</html>

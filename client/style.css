@@ -1,0 +1,30 @@
+#notifications-list {
+    padding-left: 20px;
+    width: 700px;
+}
+
+.notification {
+    margin: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 20px 20px 6px 20px;
+}
+
+.notification .header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.notification .header .logo {
+    padding-right: 10px;
+}
+
+.notification .body {
+    padding: 10px 30px;
+}
+
+.notification .subject-id {
+    font-family: monospace;
+    font-size: 120%;
+    margin: 4px 0 ;
+}
